@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Mundo Invertido</title>
 </head>
-<body>
+<body class="light-theme">
     <header>
         <audio id="music">
             <source src="assets/musics/normal-world.mpeg" type="audio/mpeg" />
@@ -26,8 +26,10 @@
 
         <div id="top-characters" class="world-characters"></div>
     </header>
-
+    
     <main>
+        <div id="bottom-characters" class="world-characters"></div>
+
         <section id="section-inverted-world" class="container">
             <div class="section-texts">
                 <h1>Mundo Invertido</h1>
@@ -96,16 +98,16 @@
 
                 <div class="form-container">
                     <form>
-                        <label for="name">Nome Completo</label>
+                        <label for="txtName">Nome Completo</label>
                         <input type="text" name="name" id="txtName">
                     
-                        <label for="email">E-mail</label>
+                        <label for="txtEmail">E-mail</label>
                         <input type="email" name="email" id="txtEmail">
                     
-                        <label for="level">Level</label>
+                        <label for="txtLevel">Level</label>
                         <input type="text" name="level" id="txtLevel">
                     
-                        <label for="character">Personagem</label>
+                        <label for="txtCharacter">Personagem</label>
                         <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
                         
                         <button type="button" id="btnSubscribe">Me inscrever</button>
